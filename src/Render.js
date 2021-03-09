@@ -3,7 +3,7 @@ import React from 'react'
 const Render = () => {
   return (
     <div>
-      <h1>React Tesiing Library Lesson</h1>
+      <h1>React Testing Library Lesson</h1>
       <input type="text"/>
       <button>Click1</button>
       <button>Click2</button>
@@ -12,6 +12,5 @@ const Render = () => {
     </div>
   )
 }
-
-export default Render
+export default Render;
 
