@@ -5,7 +5,7 @@ import './App.css';
 import RenderInput from './RenderInput/RenderInput';
 import FrameworkList from './FrameworkList/FrameworkList';
 import MockServer from './MockServer/MockServer';
-import Redux from './Redux';
+import Redux from './Redux/Redux';
 
 function App() {
   const output = (text) => {

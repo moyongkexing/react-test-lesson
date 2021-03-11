@@ -5,7 +5,7 @@ import {
   increment,
   decrement,
   incrementByAmount,
-} from "./features/customCounter/customCounterSlice";
+} from "../features/customCounter/customCounterSlice";
 
 const Redux = () => {
   const [ number, setNumber ] = React.useState(0);
@@ -20,7 +20,7 @@ const Redux = () => {
         <span data-testid="count-value">{count}</span>
         <button onClick={() => dispatch(decrement())}>-</button>
         <button onClick={() => dispatch(incrementByAmount(number | 0))}>
-          incrementByAmount
+          IncrementByAmount
         </button>
         <input
           type="text"
